@@ -128,6 +128,13 @@ header nav a {
   width: 50%;
 }
 
+@media only screen and (max-width: 664px) {
+  .services .services-left,
+  .services .services-right {
+    width: 100%;
+  }
+}
+
 .services .services-left h2 {
   margin-bottom: 30px;
   font-size: 3em;
