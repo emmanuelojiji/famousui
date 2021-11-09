@@ -3,12 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
 }
 
 html,
 body {
   height: 100%;
   background: #f8f9fa;
+  scroll-behavior: smooth;
 }
 
 .page-container {
@@ -28,6 +30,14 @@ header {
     align-items: center;
     justify-content: space-between;
   }
+
+  nav{
+      a{
+          padding: 12px;
+          font-size: 0.8em;
+          color: black;
+      }
+  }
 }
 
 .billboard {
@@ -42,6 +52,8 @@ header {
   h1 {
     font-size: 3em;
     text-align: center;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: -3px;
   }
 }
 
@@ -122,8 +134,8 @@ header {
   .project-card-container {
     display: flex;
     @media only screen and (max-width: 664px) {
-        flex-direction: column;
-      }
+      flex-direction: column;
+    }
   }
 
   .project-card {
@@ -137,8 +149,8 @@ header {
     margin-right: 30px;
 
     @media only screen and (max-width: 664px) {
-        max-width: 100%;
-      }
+      max-width: 100%;
+    }
 
     &.audi {
       background-color: black;
